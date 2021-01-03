@@ -15,3 +15,11 @@
 
 # Create API:
 - run `npm install express`
+- run index.js file
+
+
+
+# HomeWork
+- declare entry point to the following path: `/users`
+- the entry point will return to the client all the user names in the class in Array.
+
