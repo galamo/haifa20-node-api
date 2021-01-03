@@ -11,3 +11,7 @@
 - run `npm init`
 - answer the questions
 - press Enter
+
+
+# Create API:
+- run `npm install express`
