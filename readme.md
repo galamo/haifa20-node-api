@@ -28,3 +28,12 @@
 - run `npm install -g nodemon`
 - config in your script `nodemon FILE.js`
 - run the script command
+
+
+# Api - GET /all-users
+- create api that return all the users
+
+# Api - GET /create-user
+- create api that create userName, by adding to Array
+- example from client `http://localhost:5000/create-user?userName=HAIM`
+- create new userName in the Array with the name Haim.
