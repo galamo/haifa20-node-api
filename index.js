@@ -1,4 +1,4 @@
-console.log("script start")
+console.log("Server Start")
 const express = require("express")
 
 const api = express()
@@ -11,11 +11,14 @@ api.get("/message", (req, res, next) => {
 api.get("/current-time", (req, res, next) => {
     const time = new Date().toUTCString()
     console.log(time)
-    res.json({ currentTimeIS: time })
+    console.log(time)
+    console.log(time)
+    console.log(time)
+    console.log(time)
+    res.json({ currentTime: time, message: "This is after nodemon installation" })
 })
 
 
 // listen to PORT 
 api.listen(5000)
 
-console.log("script end")

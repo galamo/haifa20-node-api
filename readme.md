@@ -23,3 +23,8 @@
 - declare entry point to the following path: `/users`
 - the entry point will return to the client all the user names in the class in Array.
 
+
+# Nodemon 
+- run `npm install -g nodemon`
+- config in your script `nodemon FILE.js`
+- run the script command
