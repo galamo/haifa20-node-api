@@ -1,10 +1,17 @@
 console.log("Server Start")
 const { json } = require("express")
 const express = require("express")
+const bodyParser = require("body-parser")
 const usersData = require("./data/users.json")
 const carsData = require("./data/cars.json")
 const api = express()
 
+api.use((req, res, next) => {
+    console.log("this code will run on every request to the server")
+    console.log(req.url)
+    next()
+})
+api.use(bodyParser.json())
 
 api.get("/users", (req, res, next) => {
     // param1 = searchBy
@@ -27,7 +34,10 @@ api.get("/cars", (req, res, next) => {
 })
 
 api.post("/user", (req, res, next) => {
-    const data = req.body;
+
+    console.log(req.body)
+    usersData.results.push(req.body)
+    res.send("User Created!")
 })
 
 
