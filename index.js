@@ -4,10 +4,13 @@ const express = require("express")
 const bodyParser = require("body-parser")
 const usersData = require("./data/users.json")
 const carsData = require("./data/cars.json")
+const authRouter = require("./auth")
+const statsRouter = require("./statistics")
+const statistics = require("./statistics/getStatistics")
 const api = express()
 
-const statistics = {}
 
+api.use(bodyParser.json())
 api.use((req, res, next) => {
     const currentUrl = req.url;
     const removeQueryParams = currentUrl.split("?")[0]
@@ -21,13 +24,22 @@ api.use((req, res, next) => {
 })
 
 
-// api.use((req, rest, next) => {
-//     const isAuthenticated = isUserAuthenticated()
+api.use("/auth", authRouter)
+
+
+
+// api.use((req, res, next) => {
+//     const isAuthenticated = isUserAuthenticated(req)
+//     return isAuthenticated ? next() : res.status(401).send("User is Unauthorized")
 //     // add code here
 // })
 
-function isUserAuthenticated() {
-    // add code here 
+function isUserAuthenticated(req) {
+    const { authorization } = req.headers
+    if (typeof authorization !== 'string') return;
+    if (authorization !== 'token_12345') return;
+    return true;
+
 }
 
 function newMiddleware() {
@@ -39,7 +51,7 @@ function newMiddleware() {
 }
 
 
-api.use(bodyParser.json())
+
 
 api.get("/users", (req, res, next) => {
     // param1 = searchBy
@@ -71,11 +83,9 @@ api.get("/test-headers", (req, res, next) => {
     res.send("test-headers")
 })
 
-api.get("/entries-usage", (req, res, next) => {
-    res.json(statistics)
-})
 
 
+api.use("/", statsRouter)
 
 
 
