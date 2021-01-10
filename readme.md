@@ -66,3 +66,9 @@
 - Search for the created Car
 - Create PUT request to update car 
 - Test All the request with POSTMAN
+
+
+# Ex Authorization
+- create authorization mechanisem based on req.headers.authorization
+- if the value in the requested header (req.headers.authorization) equal to token_12345 use next
+- otherwise block the user from access to your resources

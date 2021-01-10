@@ -6,11 +6,39 @@ const usersData = require("./data/users.json")
 const carsData = require("./data/cars.json")
 const api = express()
 
+const statistics = {}
+
 api.use((req, res, next) => {
-    console.log("this code will run on every request to the server")
-    console.log(req.url)
-    next()
+    const currentUrl = req.url;
+    const removeQueryParams = currentUrl.split("?")[0]
+    console.log(removeQueryParams)
+    if (statistics[removeQueryParams]) {
+        statistics[removeQueryParams]++;
+    } else {
+        statistics[removeQueryParams] = 1
+    }
+    return next()
 })
+
+
+// api.use((req, rest, next) => {
+//     const isAuthenticated = isUserAuthenticated()
+//     // add code here
+// })
+
+function isUserAuthenticated() {
+    // add code here 
+}
+
+function newMiddleware() {
+    return (req, res, next) => {
+        console.log("inside ###### Middleware #######")
+        console.log(req.url)
+        next()
+    }
+}
+
+
 api.use(bodyParser.json())
 
 api.get("/users", (req, res, next) => {
@@ -39,6 +67,15 @@ api.post("/user", (req, res, next) => {
     usersData.results.push(req.body)
     res.send("User Created!")
 })
+api.get("/test-headers", (req, res, next) => {
+    res.send("test-headers")
+})
+
+api.get("/entries-usage", (req, res, next) => {
+    res.json(statistics)
+})
+
+
 
 
 
