@@ -83,3 +83,10 @@
 - open file with the following name in your root folder: `.env`
 - assign the relevant keys inside the file
 - use with `process.env.ATTRIBUTE_NAME`
+
+# winston logger
+- run `npm install winston`
+- check configuration in `logger/index.js`
+
+# cors
+- run `npm install cors`

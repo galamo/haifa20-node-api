@@ -1,7 +1,6 @@
 const { users } = require("../../data/users.file.json")
 const moment = require("moment")
-
-
+const logger = require("../../logger")
 
 
 
@@ -17,14 +16,14 @@ function setNewToken(token) {
 }
 
 function removeToken(token) {
+    logger.info(`token: ${token} removed`)
     delete tokens[token]
 }
 
 function isAuthenticated(token) {
     const tokenValue = tokens[token];
     if (!tokenValue) return false;
-    console.log(tokenValue)
-    console.log(tokenValue)
+
     if (!validateTokenExpiration(tokenValue)) return false;
     return true
 
@@ -33,9 +32,9 @@ function validateTokenExpiration(date) {
     const { MAX_SESSION_TIME } = process.env
     const currentTime = moment().utc()
     const tokenTime = moment(date)
-    console.log(`currentTime: ${currentTime} ###### tokenTime: ${tokenTime}`)
+    logger.info(`currentTime: ${currentTime} ###### tokenTime: ${tokenTime}`)
     const diffTimeMinutes = currentTime.diff(tokenTime, "minutes")
-    console.log(MAX_SESSION_TIME > diffTimeMinutes)
+    logger.info(`session expired: ${!(MAX_SESSION_TIME > diffTimeMinutes)}`)
     return MAX_SESSION_TIME > diffTimeMinutes
 }
 

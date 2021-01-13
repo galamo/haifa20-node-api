@@ -8,6 +8,7 @@ const carsData = require("./data/cars.json")
 const authRouter = require("./auth")
 const statsRouter = require("./statistics")
 const statistics = require("./statistics/getStatistics")
+const cors = require("cors")
 const logger = require("./logger")
 const api = express()
 
@@ -26,12 +27,13 @@ function validateEnvParams() {
 }
 validateEnvParams()
 
-
+api.use(cors())
 api.use(bodyParser.json())
 api.use((req, res, next) => {
+
     const currentUrl = req.url;
     const removeQueryParams = currentUrl.split("?")[0]
-    console.log(removeQueryParams)
+    logger.info(removeQueryParams)
     if (statistics[removeQueryParams]) {
         statistics[removeQueryParams]++;
     } else {
