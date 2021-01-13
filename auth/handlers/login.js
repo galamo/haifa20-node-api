@@ -1,4 +1,11 @@
 const { users } = require("../../data/users.file.json")
+const moment = require("moment")
+
+
+
+
+
+
 
 function login(userName, password) {
     const user = users.find((user) => user.userName === userName && user.password === password)
@@ -6,7 +13,7 @@ function login(userName, password) {
 }
 
 function setNewToken(token) {
-    tokens[token] = new Date().toLocaleDateString();
+    tokens[token] = moment().utc().toString()
 }
 
 function removeToken(token) {
@@ -14,11 +21,25 @@ function removeToken(token) {
 }
 
 function isAuthenticated(token) {
-    const isToken = tokens[token];
-    if (!isToken) return false;
+    const tokenValue = tokens[token];
+    if (!tokenValue) return false;
+    console.log(tokenValue)
+    console.log(tokenValue)
+    if (!validateTokenExpiration(tokenValue)) return false;
     return true
 
 }
+function validateTokenExpiration(date) {
+    const { MAX_SESSION_TIME } = process.env
+    const currentTime = moment().utc()
+    const tokenTime = moment(date)
+    console.log(`currentTime: ${currentTime} ###### tokenTime: ${tokenTime}`)
+    const diffTimeMinutes = currentTime.diff(tokenTime, "minutes")
+    console.log(MAX_SESSION_TIME > diffTimeMinutes)
+    return MAX_SESSION_TIME > diffTimeMinutes
+}
+
+
 
 
 const tokens = {}

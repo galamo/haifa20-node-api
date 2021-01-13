@@ -72,3 +72,14 @@
 - create authorization mechanisem based on req.headers.authorization
 - if the value in the requested header (req.headers.authorization) equal to token_12345 use next
 - otherwise block the user from access to your resources
+
+
+# moment
+- Docs https://momentjs.com/
+- run `npm install moment`
+
+# dotenv
+- run `npm install dotenv`
+- open file with the following name in your root folder: `.env`
+- assign the relevant keys inside the file
+- use with `process.env.ATTRIBUTE_NAME`

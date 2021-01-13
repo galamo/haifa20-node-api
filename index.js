@@ -1,4 +1,5 @@
-console.log("Server Start")
+
+require("dotenv").config()
 const { json } = require("express")
 const express = require("express")
 const bodyParser = require("body-parser")
@@ -7,7 +8,23 @@ const carsData = require("./data/cars.json")
 const authRouter = require("./auth")
 const statsRouter = require("./statistics")
 const statistics = require("./statistics/getStatistics")
+const logger = require("./logger")
 const api = express()
+
+logger.info("Server started!")
+const envParams = ["MAX_SESSION_TIME", "PORT"]
+function validateEnvParams() {
+    envParams.forEach((envParamName) => {
+        if (!process.env[envParamName]) {
+            console.log('\x1b[33m%s\x1b[0m', `Missing env param: ${envParamName}`);
+            logger.error(`Missing env param: ${envParamName}`)
+            setTimeout(() => {
+                process.exit(1)
+            }, 2000);
+        }
+    })
+}
+validateEnvParams()
 
 
 api.use(bodyParser.json())
@@ -100,11 +117,6 @@ function search(arr, searchBy, searchValue) {
 
 
 
-
-
-
-
-
 // listen to PORT 
-api.listen(5000)
+api.listen(process.env.PORT)
 
