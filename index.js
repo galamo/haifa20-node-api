@@ -7,6 +7,7 @@ const usersData = require("./data/users.json")
 const carsData = require("./data/cars.json")
 const authRouter = require("./auth")
 const statsRouter = require("./statistics")
+const moviesRouter = require("./movies/index")
 const statistics = require("./statistics/getStatistics")
 const cors = require("cors")
 const logger = require("./logger")
@@ -42,7 +43,7 @@ api.use((req, res, next) => {
     return next()
 })
 
-
+api.use("/movies", moviesRouter)
 api.use("/auth", authRouter)
 
 
