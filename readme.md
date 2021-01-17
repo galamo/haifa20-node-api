@@ -90,3 +90,15 @@
 
 # cors
 - run `npm install cors`
+
+
+# HapiJoi
+- run `npm install @hapi/joi`
+
+# fs
+- filesystem
+- write
+- append
+
+# static content
+- express static

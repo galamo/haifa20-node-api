@@ -13,6 +13,19 @@ const cors = require("cors")
 const logger = require("./logger")
 const api = express()
 
+const fs = require("fs")
+
+function writeToFile() {
+    fs.appendFile("log/notifications.log", "Server Start \n", (err) => {
+        if (err) {
+            console.log("ERROR WRITING TO FILE")
+        }
+    })
+}
+writeToFile()
+
+api.use(express.static("images"))
+
 logger.info("Server started!")
 const envParams = ["MAX_SESSION_TIME", "PORT"]
 function validateEnvParams() {
