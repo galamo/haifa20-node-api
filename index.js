@@ -12,8 +12,17 @@ const statistics = require("./statistics/getStatistics")
 const cors = require("cors")
 const logger = require("./logger")
 const api = express()
+const mysql2Promise = require("mysql2/promise")
 
+// const connection = require("./database/index")
 const fs = require("fs")
+
+
+
+
+
+
+
 
 function writeToFile() {
     fs.appendFile("log/notifications.log", "Server Start \n", (err) => {
@@ -23,7 +32,21 @@ function writeToFile() {
     })
 }
 writeToFile()
+api.get("/orders", async (req, res, next) => {
 
+    const { DB_SCHEMA, DB_USER, DB_PASSWORD, DB_PORT, DB_HOST } = process.env;
+    console.log(DB_SCHEMA, DB_USER, DB_PASSWORD, DB_PORT, DB_HOST)
+    const connection = await mysql2Promise.createConnection({
+        host: DB_HOST,
+        port: DB_PORT,
+        user: DB_USER,
+        password: DB_PASSWORD,
+        database: DB_SCHEMA //schema
+    });
+
+    const [rows] = await connection.execute('SELECT * FROM northwind.orders')
+    res.json(rows)
+})
 api.use(express.static("images"))
 
 logger.info("Server started!")

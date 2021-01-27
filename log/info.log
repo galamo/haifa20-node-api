@@ -800,3 +800,145 @@
 {"message":"User Got 401","level":"info","timestamp":"2021-01-17T18:47:55.229Z"}
 {"message":"Server started!","level":"info","timestamp":"2021-01-17T18:48:28.529Z"}
 {"message":"Server started!","level":"info","timestamp":"2021-01-17T18:48:30.904Z"}
+{"message":"Server started!","level":"info","timestamp":"2021-01-27T19:16:24.018Z"}
+{"message":"Server started!","level":"info","timestamp":"2021-01-27T19:16:46.992Z"}
+{"message":"Server started!","level":"info","timestamp":"2021-01-27T19:17:18.638Z"}
+{"message":"Server started!","level":"info","timestamp":"2021-01-27T19:17:20.826Z"}
+{"message":"Server started!","level":"info","timestamp":"2021-01-27T19:17:22.506Z"}
+{"message":"Server started!","level":"info","timestamp":"2021-01-27T19:17:28.252Z"}
+{"message":"Server started!","level":"info","timestamp":"2021-01-27T19:17:44.020Z"}
+{"message":"Server started!","level":"info","timestamp":"2021-01-27T19:17:49.371Z"}
+{"message":"Server started!","level":"info","timestamp":"2021-01-27T19:17:57.396Z"}
+{"message":"Server started!","level":"info","timestamp":"2021-01-27T19:18:00.021Z"}
+{"message":"Server started!","level":"info","timestamp":"2021-01-27T19:18:01.916Z"}
+{"message":"Server started!","level":"info","timestamp":"2021-01-27T19:18:03.301Z"}
+{"message":"Server started!","level":"info","timestamp":"2021-01-27T19:18:04.664Z"}
+{"message":"/socket.io/","level":"info","timestamp":"2021-01-27T19:18:24.958Z"}
+{"message":"User Got 401","level":"info","timestamp":"2021-01-27T19:18:24.959Z"}
+{"message":"/socket.io/","level":"info","timestamp":"2021-01-27T19:18:25.026Z"}
+{"message":"User Got 401","level":"info","timestamp":"2021-01-27T19:18:25.026Z"}
+{"message":"/socket.io/","level":"info","timestamp":"2021-01-27T19:18:26.738Z"}
+{"message":"User Got 401","level":"info","timestamp":"2021-01-27T19:18:26.738Z"}
+{"message":"/socket.io/","level":"info","timestamp":"2021-01-27T19:18:28.721Z"}
+{"message":"User Got 401","level":"info","timestamp":"2021-01-27T19:18:28.722Z"}
+{"message":"/socket.io/","level":"info","timestamp":"2021-01-27T19:18:34.724Z"}
+{"message":"User Got 401","level":"info","timestamp":"2021-01-27T19:18:34.724Z"}
+{"message":"/socket.io/","level":"info","timestamp":"2021-01-27T19:18:40.722Z"}
+{"message":"User Got 401","level":"info","timestamp":"2021-01-27T19:18:40.722Z"}
+{"message":"/socket.io/","level":"info","timestamp":"2021-01-27T19:18:46.723Z"}
+{"message":"User Got 401","level":"info","timestamp":"2021-01-27T19:18:46.723Z"}
+{"message":"/socket.io/","level":"info","timestamp":"2021-01-27T19:18:52.723Z"}
+{"message":"User Got 401","level":"info","timestamp":"2021-01-27T19:18:52.723Z"}
+{"message":"/socket.io/","level":"info","timestamp":"2021-01-27T19:18:58.719Z"}
+{"message":"User Got 401","level":"info","timestamp":"2021-01-27T19:18:58.720Z"}
+{"message":"Server started!","level":"info","timestamp":"2021-01-27T19:18:59.560Z"}
+{"message":"Server started!","level":"info","timestamp":"2021-01-27T19:19:02.636Z"}
+{"message":"/socket.io/","level":"info","timestamp":"2021-01-27T19:19:05.427Z"}
+{"message":"User Got 401","level":"info","timestamp":"2021-01-27T19:19:05.427Z"}
+{"message":"/socket.io/","level":"info","timestamp":"2021-01-27T19:19:10.727Z"}
+{"message":"User Got 401","level":"info","timestamp":"2021-01-27T19:19:10.727Z"}
+{"message":"/socket.io/","level":"info","timestamp":"2021-01-27T19:19:17.286Z"}
+{"message":"User Got 401","level":"info","timestamp":"2021-01-27T19:19:17.286Z"}
+{"message":"/socket.io/","level":"info","timestamp":"2021-01-27T19:19:22.742Z"}
+{"message":"User Got 401","level":"info","timestamp":"2021-01-27T19:19:22.742Z"}
+{"message":"/socket.io/","level":"info","timestamp":"2021-01-27T19:19:30.259Z"}
+{"message":"User Got 401","level":"info","timestamp":"2021-01-27T19:19:30.259Z"}
+{"message":"/socket.io/","level":"info","timestamp":"2021-01-27T19:19:35.822Z"}
+{"message":"User Got 401","level":"info","timestamp":"2021-01-27T19:19:35.822Z"}
+{"message":"/socket.io/","level":"info","timestamp":"2021-01-27T19:19:42.718Z"}
+{"message":"User Got 401","level":"info","timestamp":"2021-01-27T19:19:42.718Z"}
+{"message":"/socket.io/","level":"info","timestamp":"2021-01-27T19:19:50.157Z"}
+{"message":"User Got 401","level":"info","timestamp":"2021-01-27T19:19:50.157Z"}
+{"message":"Server started!","level":"info","timestamp":"2021-01-27T19:19:52.333Z"}
+{"message":"Server started!","level":"info","timestamp":"2021-01-27T19:19:55.235Z"}
+{"message":"/socket.io/","level":"info","timestamp":"2021-01-27T19:19:56.116Z"}
+{"message":"User Got 401","level":"info","timestamp":"2021-01-27T19:19:56.117Z"}
+{"message":"/socket.io/","level":"info","timestamp":"2021-01-27T19:20:02.020Z"}
+{"message":"User Got 401","level":"info","timestamp":"2021-01-27T19:20:02.021Z"}
+{"message":"/socket.io/","level":"info","timestamp":"2021-01-27T19:20:08.310Z"}
+{"message":"User Got 401","level":"info","timestamp":"2021-01-27T19:20:08.310Z"}
+{"message":"/socket.io/","level":"info","timestamp":"2021-01-27T19:20:13.801Z"}
+{"message":"User Got 401","level":"info","timestamp":"2021-01-27T19:20:13.802Z"}
+{"message":"/socket.io/","level":"info","timestamp":"2021-01-27T19:20:19.791Z"}
+{"message":"User Got 401","level":"info","timestamp":"2021-01-27T19:20:19.792Z"}
+{"message":"Server started!","level":"info","timestamp":"2021-01-27T19:20:24.033Z"}
+{"message":"/socket.io/","level":"info","timestamp":"2021-01-27T19:20:25.559Z"}
+{"message":"User Got 401","level":"info","timestamp":"2021-01-27T19:20:25.560Z"}
+{"message":"Server started!","level":"info","timestamp":"2021-01-27T19:20:29.780Z"}
+{"message":"/socket.io/","level":"info","timestamp":"2021-01-27T19:20:30.682Z"}
+{"message":"User Got 401","level":"info","timestamp":"2021-01-27T19:20:30.683Z"}
+{"message":"Server started!","level":"info","timestamp":"2021-01-27T19:20:35.680Z"}
+{"message":"/socket.io/","level":"info","timestamp":"2021-01-27T19:20:35.782Z"}
+{"message":"User Got 401","level":"info","timestamp":"2021-01-27T19:20:35.782Z"}
+{"message":"/socket.io/","level":"info","timestamp":"2021-01-27T19:20:41.974Z"}
+{"message":"User Got 401","level":"info","timestamp":"2021-01-27T19:20:41.975Z"}
+{"message":"/socket.io/","level":"info","timestamp":"2021-01-27T19:20:49.148Z"}
+{"message":"User Got 401","level":"info","timestamp":"2021-01-27T19:20:49.149Z"}
+{"message":"Server started!","level":"info","timestamp":"2021-01-27T19:20:51.888Z"}
+{"message":"/socket.io/","level":"info","timestamp":"2021-01-27T19:20:54.740Z"}
+{"message":"User Got 401","level":"info","timestamp":"2021-01-27T19:20:54.741Z"}
+{"message":"/socket.io/","level":"info","timestamp":"2021-01-27T19:21:00.523Z"}
+{"message":"User Got 401","level":"info","timestamp":"2021-01-27T19:21:00.523Z"}
+{"message":"/socket.io/","level":"info","timestamp":"2021-01-27T19:21:06.184Z"}
+{"message":"User Got 401","level":"info","timestamp":"2021-01-27T19:21:06.184Z"}
+{"message":"/socket.io/","level":"info","timestamp":"2021-01-27T19:21:12.718Z"}
+{"message":"User Got 401","level":"info","timestamp":"2021-01-27T19:21:12.719Z"}
+{"message":"Server started!","level":"info","timestamp":"2021-01-27T19:21:19.391Z"}
+{"message":"Server started!","level":"info","timestamp":"2021-01-27T19:21:24.663Z"}
+{"message":"Server started!","level":"info","timestamp":"2021-01-27T19:21:31.590Z"}
+{"message":"Server started!","level":"info","timestamp":"2021-01-27T19:21:33.541Z"}
+{"message":"/socket.io/","level":"info","timestamp":"2021-01-27T19:21:45.205Z"}
+{"message":"User Got 401","level":"info","timestamp":"2021-01-27T19:21:45.206Z"}
+{"message":"/socket.io/","level":"info","timestamp":"2021-01-27T19:21:45.214Z"}
+{"message":"User Got 401","level":"info","timestamp":"2021-01-27T19:21:45.214Z"}
+{"message":"/socket.io/","level":"info","timestamp":"2021-01-27T19:21:46.920Z"}
+{"message":"User Got 401","level":"info","timestamp":"2021-01-27T19:21:46.920Z"}
+{"message":"/socket.io/","level":"info","timestamp":"2021-01-27T19:21:50.039Z"}
+{"message":"User Got 401","level":"info","timestamp":"2021-01-27T19:21:50.039Z"}
+{"message":"Server started!","level":"info","timestamp":"2021-01-27T19:21:54.641Z"}
+{"message":"/socket.io/","level":"info","timestamp":"2021-01-27T19:21:56.216Z"}
+{"message":"User Got 401","level":"info","timestamp":"2021-01-27T19:21:56.217Z"}
+{"message":"Server started!","level":"info","timestamp":"2021-01-27T19:21:58.734Z"}
+{"message":"Server started!","level":"info","timestamp":"2021-01-27T19:22:03.050Z"}
+{"message":"Server started!","level":"info","timestamp":"2021-01-27T19:22:06.482Z"}
+{"message":"/socket.io/","level":"info","timestamp":"2021-01-27T19:22:27.880Z"}
+{"message":"User Got 401","level":"info","timestamp":"2021-01-27T19:22:27.881Z"}
+{"message":"/socket.io/","level":"info","timestamp":"2021-01-27T19:22:27.887Z"}
+{"message":"User Got 401","level":"info","timestamp":"2021-01-27T19:22:27.887Z"}
+{"message":"/socket.io/","level":"info","timestamp":"2021-01-27T19:22:29.140Z"}
+{"message":"User Got 401","level":"info","timestamp":"2021-01-27T19:22:29.140Z"}
+{"message":"/socket.io/","level":"info","timestamp":"2021-01-27T19:22:32.843Z"}
+{"message":"User Got 401","level":"info","timestamp":"2021-01-27T19:22:32.843Z"}
+{"message":"/socket.io/","level":"info","timestamp":"2021-01-27T19:22:37.890Z"}
+{"message":"User Got 401","level":"info","timestamp":"2021-01-27T19:22:37.891Z"}
+{"message":"/socket.io/","level":"info","timestamp":"2021-01-27T19:22:43.956Z"}
+{"message":"User Got 401","level":"info","timestamp":"2021-01-27T19:22:43.956Z"}
+{"message":"/socket.io/","level":"info","timestamp":"2021-01-27T19:22:50.810Z"}
+{"message":"User Got 401","level":"info","timestamp":"2021-01-27T19:22:50.810Z"}
+{"message":"/socket.io/","level":"info","timestamp":"2021-01-27T19:22:57.324Z"}
+{"message":"User Got 401","level":"info","timestamp":"2021-01-27T19:22:57.324Z"}
+{"message":"/socket.io/","level":"info","timestamp":"2021-01-27T19:23:02.782Z"}
+{"message":"User Got 401","level":"info","timestamp":"2021-01-27T19:23:02.782Z"}
+{"message":"Server started!","level":"info","timestamp":"2021-01-27T19:23:07.651Z"}
+{"message":"/socket.io/","level":"info","timestamp":"2021-01-27T19:23:09.287Z"}
+{"message":"User Got 401","level":"info","timestamp":"2021-01-27T19:23:09.288Z"}
+{"message":"/socket.io/","level":"info","timestamp":"2021-01-27T19:23:15.429Z"}
+{"message":"User Got 401","level":"info","timestamp":"2021-01-27T19:23:15.429Z"}
+{"message":"/socket.io/","level":"info","timestamp":"2021-01-27T19:23:21.207Z"}
+{"message":"User Got 401","level":"info","timestamp":"2021-01-27T19:23:21.207Z"}
+{"message":"/socket.io/","level":"info","timestamp":"2021-01-27T19:23:27.681Z"}
+{"message":"User Got 401","level":"info","timestamp":"2021-01-27T19:23:27.681Z"}
+{"message":"/socket.io/","level":"info","timestamp":"2021-01-27T19:23:32.778Z"}
+{"message":"User Got 401","level":"info","timestamp":"2021-01-27T19:23:32.778Z"}
+{"message":"/socket.io/","level":"info","timestamp":"2021-01-27T19:23:39.281Z"}
+{"message":"User Got 401","level":"info","timestamp":"2021-01-27T19:23:39.281Z"}
+{"message":"/socket.io/","level":"info","timestamp":"2021-01-27T19:23:46.217Z"}
+{"message":"User Got 401","level":"info","timestamp":"2021-01-27T19:23:46.217Z"}
+{"message":"/socket.io/","level":"info","timestamp":"2021-01-27T19:23:52.457Z"}
+{"message":"User Got 401","level":"info","timestamp":"2021-01-27T19:23:52.458Z"}
+{"message":"/socket.io/","level":"info","timestamp":"2021-01-27T19:23:57.728Z"}
+{"message":"User Got 401","level":"info","timestamp":"2021-01-27T19:23:57.728Z"}
+{"message":"/socket.io/","level":"info","timestamp":"2021-01-27T19:24:03.728Z"}
+{"message":"User Got 401","level":"info","timestamp":"2021-01-27T19:24:03.728Z"}
+{"message":"/socket.io/","level":"info","timestamp":"2021-01-27T19:24:09.728Z"}
+{"message":"User Got 401","level":"info","timestamp":"2021-01-27T19:24:09.728Z"}
